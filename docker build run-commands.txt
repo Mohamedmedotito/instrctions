@@ -12,7 +12,7 @@ fi
 b) Script to run container of last created build:
 -------------------------------------------------
 echo ">>> start running container of last created Image"
-docker run -d -p 9090:9090 --name=demo1-0.0.1-SNAPSHOT$BUILD_NUMBER khalednoh/demo1:demo1-0.0.1-SNAPSHOT$BUILD_NUMBER
+docker run -d -p 9090:9090 --name=demo1-0.0.1-SNAPSHOT$BUILD_NUMBER mgabry2021/demo1:demo1-0.0.1-SNAPSHOT$BUILD_NUMBER
 echo ">>> start running container of last created Image"
 
 
